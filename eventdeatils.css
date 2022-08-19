@@ -1,0 +1,208 @@
+*{
+
+    margin:0;
+    padding: 0;
+    
+    }
+    .block{
+        
+        width: auto;
+          height: 12vh;
+            width: auto;
+            margin-top: 0;
+            display: flex;
+            text-align: center;
+            background-color: black;
+        
+        }
+    
+        a{
+            text-decoration: none;
+            color:plum;
+            font-size: large;
+            font-weight: 500px;
+        }
+        
+        li{list-style-type: none;
+        }
+        
+        
+        
+        .nav-links1{
+            padding-right: 100px;
+            position: absolute;
+            left: 150px;
+            top: 25px;
+            transition: 1.2s;
+        }
+        
+        .nav-links2{
+            padding-right: 100px;
+            position: absolute;
+            left: 480px;
+            top: 25px;
+            cursor: pointer;
+            transition: 1.2s;
+        
+        }
+        
+        .nav-links3{
+            padding-right: 100px;
+            position: absolute;
+            left: 850px;
+            top: 25px;
+        }
+        
+        .nav-links3:hover{
+            position: absolute;
+            top: 10px; 
+            background-color:purple ;
+            border-radius: 25px;
+            margin-left: -50px;
+            padding: 15px  50px 15px 50px;
+            color: white;
+            
+        
+        }
+        
+        
+        .nav-links2:hover{
+        color:white;
+        cursor: pointer;
+        font-size: bolder;
+        font-size: 20px;
+        }
+        
+        .nav-links1:hover{
+            color:white;
+            font-size: bolder;
+            cursor: pointer;
+            font-size: 20px;
+        }
+        
+
+
+    
+    
+    .details{
+        background:white;
+        width: 100%;
+        padding: 100px 0px;
+    }
+
+    .box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 400px;
+    }
+    .card{
+        position: absolute;
+        top: -30px;
+
+        height: 365px;
+        width: 335px;
+        padding: 20px 35px;
+        background:black;
+        border-radius: 20px;
+        margin: 15px;
+        position: relative;
+        text-align: center;
+    }
+
+    h4{
+        padding-top: 20px;
+        color:aquamarine;
+        font-size: 23px;
+        margin-bottom: 15px;
+    }
+    .para1 p{
+        
+        color:white;
+        font-size: 16px;
+        line-height: 27px;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+    
+    .card .button1{
+        background-color:aquamarine;
+        position:relative;
+        top: 50px;
+
+        color:black;
+        text-decoration: none;
+        border: 2px solid transparent;
+        font-weight: bold;
+        padding: 9px 22px;
+        border-radius: 30px;
+        transition: .4s; 
+    }
+    .card .button1:hover{
+        background-color: transparent;
+        border: 2px solid plum;
+        color: white;
+        cursor: pointer;
+    }
+
+   .para1 .click  {
+        color: aquamarine;
+        
+    }
+
+
+    
+    .footer{
+        position:absolute;
+        top: 800px;
+    margin-top: -100px;
+         padding-top: 10px;
+         text-align: center;
+         background-color:black;
+         height: 30px;
+         width: 1263px;
+         font-family: "open sans";
+         color: white ;
+     }
+    
+
+    .card .button2{
+        background-color:aquamarine;
+        position:relative;
+        top: 80px;
+
+        color:black;
+        text-decoration: none;
+        border: 2px solid transparent;
+        font-weight: bold;
+        padding: 9px 22px;
+        border-radius: 30px;
+        transition: .4s; 
+    }
+
+    .card .button2:hover{
+        background-color: transparent;
+        border: 2px solid plum;
+        color: white;
+        cursor: pointer;
+    }
+
+    .card .button3{
+        background-color:aquamarine;
+        position:relative;
+        top: 80px;
+
+        color:black;
+        text-decoration: none;
+        border: 2px solid transparent;
+        font-weight: bold;
+        padding: 9px 22px;
+        border-radius: 30px;
+        transition: .4s; 
+    }
+    .card .button3:hover{
+        background-color: transparent;
+        border: 2px solid plum;
+        color: white;
+        cursor: pointer;
+    }

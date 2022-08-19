@@ -1,0 +1,40 @@
+.html{
+    padding: 0 0;
+    margin: 0 0;
+}
+.body{
+    font-family: 'Courier New', Courier, monospace;
+}
+.base{
+    height: 10vh;
+    width: auto;
+    margin-top: 0;
+    display: flex;
+    text-align: center;
+     background-color: black;
+
+}
+.base ul{
+    display: flex;
+    color: aliceblue;
+    text-align: center;
+}
+.base ul li{
+    padding: 3px 5px;
+    margin:5px ;
+    list-style-type: none;
+    cursor: pointer;
+    transition: 1.2s;
+    
+    
+}
+.base ul li:hover{
+    padding: 3px 5px;
+    margin:5px ;
+    list-style-type: none;
+    cursor: pointer;
+    color: aquamarine;
+    font-size: bolder;
+    font-size: 20px;
+
+}

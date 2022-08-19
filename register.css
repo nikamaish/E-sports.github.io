@@ -1,0 +1,102 @@
+
+body{
+
+background-color: plum;
+
+}
+
+.registerform {
+    /* position: absolute; */
+    top: 100px;
+    left: 450px;
+    width: 300px;
+    height: 450px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+    background: #fff;
+    padding: 50px;
+    margin: 8% auto 0;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.registerform h2 {
+
+    color: black;
+    margin-top: 10px;
+}
+
+.inputbox {
+
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #999;
+    outline: none;
+}
+
+.submitbutton{
+    color:#fff;
+    background-color:black;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    
+    margin: 10px 0;
+    border-radius: 20px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+
+.a{
+    text-decoration: none;
+
+}
+
+
+
+
+.submitbutton:hover {
+    background-color:purple;
+    color: white;
+    font-size: bolder;
+    font-size: 18px;
+}
+
+
+.banner1{
+    position: absolute;
+    top: 60px;
+    width: 100%;
+    height: 120vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(./gaming\ setup.jpg);
+    background-size: cover;
+    background-position: center; 
+    z-index: -1;
+}
+
+
+.footer{
+    position:absolute;
+    top: 800px;
+    margin-top:-150px;
+     padding-top: 10px;
+     text-align: center;
+     background-color:black;
+     height: 30px;
+     width: 1263px;
+     font-family: "open sans";
+     color: white ;
+ }
+
+
+
+
+
+
+
+

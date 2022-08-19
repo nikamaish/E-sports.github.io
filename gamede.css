@@ -1,0 +1,147 @@
+*{
+
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.content-table {
+    position: relative;
+    top: 50%;
+    left: 2%;
+  margin: 25px 0;
+  font-size: 20px;
+  min-width: 400px;
+  border-collapse: collapse;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+  background-color:brown;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.content-table th{
+
+    padding: 12px 15px;
+}
+.content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+
+ .content-table tbody tr {
+  border-bottom: 2px solid black;
+} 
+
+.content-table tbody tr.rowstable {
+  font-weight: bold;
+  color: brown;
+}
+
+
+
+.img1{
+position:absolute;
+left: 43%;
+top: 20%;
+filter: drop-shadow(0px 10px 6px rgb(18, 20, 44));
+	animation: drop1 1.5s ease-in-out;
+
+}
+
+.img2{
+  position:absolute;
+  left:70% ;
+  top: 20%;
+	filter: drop-shadow(0px 10px 6px rgb(18, 20, 44));
+	animation: drop2 1.5s ease-in-out;
+  }
+
+.img3{
+  position: absolute;
+  top: 60%;
+  left: 43%;
+  filter: drop-shadow(0px 10px 6px rgb(18, 20, 44));
+	animation: drop4 1.5s ease-in-out;
+
+}
+
+.img4{
+position: absolute;
+top: 60%;
+left: 70%;
+filter: drop-shadow(0px 10px 6px rgb(18, 20, 44));
+	animation: drop4 1.5s ease-in-out;
+
+}
+
+@keyframes drop1 {
+  0% {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+
+  @keyframes drop2 {
+    0% {
+      opacity: 0;
+      transform: translateY(-100px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+
+  @keyframes drop3 {
+    0% {
+      opacity: 0;
+      transform: translateY(-100px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+
+
+  @keyframes drop4 {
+    0% {
+      opacity: 0;
+      transform: translateY(-100px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+  
+
+
+  .footer{
+    position:absolute;
+    top: -200px;
+    margin-top:-300px;
+     padding-top: 10px;
+     text-align: center;
+     background-color:black;
+     height: 30px;
+     width: 1263px;
+     font-family: "open sans";
+     color: white ;
+  }
